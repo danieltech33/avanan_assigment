@@ -1,0 +1,10 @@
+variable "environment" {}
+variable "default-tags" {}
+variable "public_subnet-a-id" {}
+variable "public_subnet-b-id" {}
+variable "private_subnet-a-id" {}
+variable "private_subnet-b-id" {}
+variable "vpc-id" {}
+variable "ecs_sg_id" {}
+variable "external_elb_certificate" {} 
+variable "instance_id" {}
